@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu a {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: block;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  transition: background-color .16s ease-in;
+}
+
+.navbar-menu a:hover {
+  color:#000;
+  background-color: #F4F0CB;
+}
+
+/*Navigation bar*/
+.navbar-menu {
+  position: fixed;
+  width: 100% !important;
+  background-color: #000;
+  margin: 2% auto;
+  top: 140px; 
+  width: calc(100%);
+  height: auto;
+}
+.navbar-menu ul a:active{ 
+ margin: 0; 
+ font-weight: bold; 
+ font-size: medium; 
+ color: #B7C68B; 
+}
+
+.navbar-menu .menu {
+  display: block;
+  
+  text-align: center;
+}
+
+.navbar-menu .menu li {
+
+  display: inline-block;
+}
+
+.navbar-menu .menu li:hover > .submenu {
+  display: block;
+
+  -webkit-animation-name: showSubMenu;
+  -webkit-animation-duration: .4s;
+}
+
+.navbar-menu .menu li ul {
+  background-color: #000;
+
+  display: none;
+  position: absolute;
+}
+
+.navbar-menu .menu li ul li {
+  display: block;
+}
+.navbar-menu .menu li ul li li{
+  position: relative;
+  top:  -50px;
+  left: 115px;
+  background-color: #000;
+}
+.navbar-menu .menu li:hover > .submenutwo {
+  display: block;
+  
+  -webkit-animation-name: showSubMenutwo;
+  -webkit-animation-duration: .4s;
+}
+
+.navbar-menu .menu li ul li a:active {
+  -webkit-animation-name: hideSubMenu;
+  -webkit-animation-duration: .4s;
+}
+
+/* Mini navigation bar */
+.navbar-mini-menu {
+  background-color: #000;
+  display: none;
+
+}
+
+.navbar-mini-menu .menu-select {
+  color: #fff;
+  padding: 1rem 1.5rem;
+}
+
+.navbar-mini-menu .menu-select .btn-select {
+  background: url("img/arrow.png") no-repeat;
+  cursor: pointer;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  right: 10px;
+  top: auto;
+}
+
+.navbar-mini-menu .mini-menu-options {
+ 
+  display: block;
+}
+
+.navbar-mini-menu .mini-menu-options li {
+  display: block;
+}
+
+.navbar-mini-menu .mini-menu-options li .submenu {
+
+  display: none;
+}
+
+.navbar-mini-menu .mini-menu-options li:focus {
+  outline: 0;
+}
+
+.navbar-mini-menu .mini-menu-options li:hover > .submenu {
+  display: block;
+  -webkit-animation-name: showSubMenu;
+  -webkit-animation-duration: .4s;
+}
+
+.navbar-mini-menu .mini-menu-options li a {
+  display: block;
+  padding: 1rem 1.5rem;
+}
+
+
+@-webkit-keyframes showSubMenu {
+  0% {
+    transform: scale(0,0);
+  }
+  100% {
+    transform: scale(1,1);
+  }
+}
+
+@-webkit-keyframes hideSubMenu {
+  0% {
+    transform: scale(1,1);
+  }
+  100% {
+    transform: scale(0,0);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .navbar-menu {
+    margin: 0;
+  }
+  
+  .navbar-menu .menu {
+    display: none;
+  }
+  
+  .navbar-mini-menu {
+    display: block;
+  }
+
+  .navbar-mini-menu .mini-menu-options {
+    display: none;
+  }
+  }

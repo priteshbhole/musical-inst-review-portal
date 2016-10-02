@@ -1,0 +1,236 @@
+html { 
+ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body
+{
+ background: #FCFCFC;
+ font-size: 1.2em; 
+}
+
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+.divider-responsive{overflow-x:auto}
+.divider-container:after,.divider-row:after,.divider-row-padding:after,.divider-topnav:after,.divider-clear:after{content:"";display:table;clear:both}
+.divider-col,.divider-half,.divider-third,.divider-twothird,.divider-quarter{float:left;width:100%}
+.tftextinput.s1{width:8.33333%}
+.tftextinput.s2{width:16.66666%}
+.tftextinput.s3{width:24.99999%}
+.tftextinput.s4{width:33.33333%}
+.tftextinput.s5{width:41.66666%}
+.tftextinput.s6{width:49.99999%}
+.tftextinput.s7{width:58.33333%}
+.tftextinput.s8{width:66.66666%}
+.tftextinput.s9{width:74.99999%}
+.tftextinput.s10{width:83.33333%}
+.tftextinput.s11{width:91.66666%}
+.tftextinput.s12,.divider-half,.divider-third,.divider-twothird,.divider-quarter{width:99.99999%}
+
+.divider-col.s1{width:8.33333%}
+.divider-col.s2{width:16.66666%}
+.divider-col.s3{width:24.99999%}
+.divider-col.s4{width:33.33333%}
+.divider-col.s5{width:41.66666%}
+.divider-col.s6{width:49.99999%}
+.divider-col.s7{width:58.33333%}
+.divider-col.s8{width:66.66666%}
+.divider-col.s9{width:74.99999%}
+.divider-col.s10{width:83.33333%}
+.divider-col.s11{width:91.66666%}
+.divider-col.s12,.divider-half,.divider-third,.divider-twothird,.divider-quarter{width:99.99999%}
+@media only screen and (min-width:601px){
+
+  .tftextinput.m1{width:8.33333%}
+  .tftextinput.m2{width:16.66666%}
+  .tftextinput.m3,.divider-quarter{width:24.99999%}
+  .tftextinput.m4,.divider-third{width:33.33333%}
+  .tftextinput.m5{width:41.66666%}
+  .tftextinput.m6,.divider-half{width:49.99999%}
+  .tftextinput.m7{width:58.33333%}
+  .tftextinput.m8,.divider-twothird{width:66.66666%}
+  .tftextinput.m9{width:74.99999%}
+  .tftextinput.m10{width:83.33333%}
+  .tftextinput.m11{width:91.66666%}
+  .tftextinput.m12{width:99.99999%}}
+
+
+  .divider-col.m1{width:8.33333%}
+  .divider-col.m2{width:16.66666%}
+  .divider-col.m3,.divider-quarter{width:24.99999%}
+  .divider-col.m4,.divider-third{width:33.33333%}
+  .divider-col.m5{width:41.66666%}
+  .divider-col.m6,.divider-half{width:49.99999%}
+  .divider-col.m7{width:58.33333%}
+  .divider-col.m8,.divider-twothird{width:66.66666%}
+  .divider-col.m9{width:74.99999%}
+  .divider-col.m10{width:83.33333%}
+  .divider-col.m11{width:91.66666%}
+  .divider-col.m12{width:99.99999%}
+  @media only screen and (min-width:993px){
+
+    .tftextinput.l1{width:8.33333%}
+    .tftextinput.l2{width:16.66666%}
+    .tftextinput.l3,.divider-quarter{width:24.99999%}
+    .tftextinput.l4,.divider-third{width:33.33333%}
+    .tftextinput.l5{width:41.66666%}
+    .tftextinput.l6,.divider-half{width:49.99999%}
+    .tftextinput.l7{width:58.33333%}
+    .tftextinput.l8,.divider-twothird{width:66.66666%}
+    .tftextinput.l9{width:74.99999%}
+    .tftextinput.l10{width:83.33333%}
+    .tftextinput.l11{width:91.66666%}
+    .tftextinput.l12{width:99.99999%}}
+
+
+    .divider-col.l1{width:8.33333%}
+    .divider-col.l2{width:16.66666%}
+    .divider-col.l3,.divider-quarter{width:24.99999%}
+    .divider-col.l4,.divider-third{width:33.33333%}
+    .divider-col.l5{width:41.66666%}
+    .divider-col.l6,.divider-half{width:49.99999%}
+    .divider-col.l7{width:58.33333%}
+    .divider-col.l8,.divider-twothird{width:66.66666%}
+    .divider-col.l9{width:74.99999%}
+    .divider-col.l10{width:83.33333%}
+    .divider-col.l11{width:91.66666%}
+    .divider-col.l12{width:99.99999%}
+    .divider-content{max-width:980px;margin:auto}
+    .divider-rest{overflow:hidden}
+
+    .divider-row-padding{padding:0 8px}
+    .divider-row-padding>.divider-half,.divider-row-padding>.divider-third,.divider-row-padding>.divider-twothird,.divider-row-padding>.divider-quarter,.divider-row-padding>.divider-col{padding:1px 8px}
+
+    .logo
+    {
+      
+
+      float: left;
+      padding-left: 40px;
+    }
+    .imagesize{
+      max-height: 400px;
+      max-width: 360px;
+    }
+    .imagesize1{
+      max-height: 400px;
+      max-width: 300px;
+    }
+
+    .pullleft
+    {
+      padding-bottom: 10px;
+
+      text-decoration: none;
+      float: left;
+
+    }
+    .pullright
+    {
+     text-decoration: none;
+     font width: 20px;
+     color: #000000;
+     float: right;
+   }
+   .offscreen1
+   {
+    padding-top: 0px;
+    position: fixed;
+  }
+
+  .padd
+  {
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+  .padding
+  {
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .pad
+  {
+    padding-bottom: 100px;
+  }
+  .smallpadding
+  {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .wh
+  {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+  }
+  .text
+  {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+  }
+  .textstyle
+  {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+  
+  .comments
+  {
+   background-size: 10% 100%; 
+   background-color: #ecd9c6;
+   font-weight: bold;
+   text-align: justify;
+   margin: 0 auto;
+   width: 30em; 
+
+   color: #000;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 16px;
+ }
+ .imageleft
+ {
+  float: left; 
+  margin: 20px 30px 30px 20px;
+  width: 350px;
+  height: 350px;
+
+}
+.temp123{
+  text-align:center;
+}
+.temp123 > input{
+  text-align:left;
+}
+textarea.html-text-box {background-color:#ffffff;background-image:url(http://);background-repeat:no-repeat;background-attachment:fixed;border-width:4px;border-style:solid ;border-color:#000;font-family:Times;font-size:14pt;color:#00000;}
+input.html-text-box {background-color:#ffffff;font-family:Times;font-size:14pt;color:#000000;}
+
+.show {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.hide {
+ visibility: hidden;
+ opacity: 0;
+ transition: 0.4s;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 62%;
+}
